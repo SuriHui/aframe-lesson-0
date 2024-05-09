@@ -7,13 +7,18 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="-1 2 -3" rotation="0 0 0" color="#4CC3D9"></a-box>
-      <a-cylinder position="-2 0.75 -3" rotation="45 90 100" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-      <a-sky color="#ECECEC"></a-sky>
-      <a-sphere position="1 1.5 -8" radius="1.25" color="#EF2D5E">
-        <a-ring position="3 2 -3" color="#FFC0CB"></a-ring>
-      </a-sphere>
+      <a-entity position="0 1 0">
+        <a-box position="-1 2 -3" rotation="0 0 0" color="#4CC3D9"></a-box>
+        <a-cylinder position="-2 0.75 -3" rotation="45 90 100" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+        <a-sky color="#ECECEC"></a-sky>
+        <a-sphere position="1 1.5 -8" radius="1.25" color="#EF2D5E">
+          <a-ring position="3 2 -3" color="#FFC0CB"></a-ring>
+        </a-sphere>
+      <a-entity>
+      <a-torus-knot position="-4 2 -3" color="#800080"><a-torus-knot>
+        <a-dodecahedron position="7 0 0" color="#008080"><a-dodecahedron>
+        <a-text position="-4 -1 0" color="#000000" value="Use my A-Frame Scene"><a-text>
     </a-scene>
   </body>
 </html>
